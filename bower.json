@@ -1,0 +1,23 @@
+{
+  "name": "web2",
+  "description": "\"# WebDevChallenge-2\"",
+  "main": "Gruntfile.js",
+  "authors": [
+    "sylwek2531 <sylwester2531@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sylwek2531/WebDevChallenge-2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.7"
+  },
+  "devDependencies": {
+    "jquery": "^3.3.1"
+  }
+}
