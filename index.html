@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masterlabs</title>
+    <link rel="stylesheet" type="text/css" href="fonts/style.css"/>
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+</head>
+<body>
+<div class="wrapper-masterlabs">
+    <div class="container">
+        <div class="main-header">
+            <img src="image/logo.png">
+        </div>
+        <div class="main-body">
+            <div class="column">
+                <div class="form-content">
+                    <div class="title-form">
+                        <h3>Register Form</h3>
+                    </div>
+                    <div class="body-form">
+                        <div class="form">
+                            <div class="inp-group">
+                                <img src="image/user.png">
+                                <input id="UsernameRegister" type="text" class="inp" title="Podaj imię">
+                                <label for="UsernameRegister">Username</label>
+                            </div>
+                            <div class="inp-group">
+                                <img src="image/pass.png">
+                                <input id="PasswordRegister" type="text" class="inp" title="Podaj imię">
+                                <label for="PasswordRegister">Password</label>
+                            </div>
+                            <div class="inp-group">
+                                <img src="image/pass.png">
+                                <input id="ConfirmRegister" type="text" class="inp" title="Podaj imię">
+                                <label for="ConfirmRegister">Confirm Password</label>
+                            </div>
+                            <div class="inp-group">
+                                <img src="image/mail.png">
+                                <input id="EmailRegister" type="text" class="inp" title="Podaj imię">
+                                <label for="EmailRegister">Email</label>
+                            </div>
+                            <select required="" class="select-city">
+                                <option value="" disabled="" selected="">Your location</option>
+                                <option value="Wroclaw">Wrocław</option>
+                                <option value="Krakow">Kraków</option>
+                                <option value="Szczecin">Szczecin</option>
+                            </select>
+                            <div class="check-group">
+                                <input id="SignUp" type="checkbox" class="inp">
+                                <label for="SignUp">I have read and accept the terms of use.</label>
+                            </div>
+                            <button type="submit" class="block" >
+                                Sign up
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-content">
+                    <div class="title-form">
+                        <h3>Send Email</h3>
+                    </div>
+                    <div class="body-form">
+                        <div class="form">
+                            <div class="inp-group">
+                                <img src="image/user.png">
+                                <input id="UsernameEmail" type="text" class="inp" title="Podaj imię">
+                                <label for="UsernameEmail">Your Name</label>
+                            </div>
+                            <div class="inp-group">
+                                <img src="image/mail.png">
+                                <input id="EmailSend" type="text" class="inp" title="Podaj imię">
+                                <label for="EmailSend">Your Email</label>
+                            </div>
+                            <textarea name="" id="" rows="11" title="textarea" placeholder="Type your message ..."></textarea>
+                            <div class="check-group">
+                                <input id="SendEmail" type="checkbox" class="inp">
+                                <label for="SendEmail">Send a copy to my Email</label>
+                            </div>
+                            <button type="submit" class="block">
+                                Send Email
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="form-content">
+                    <div class="title-form">
+                        <h3>Sign In Form</h3>
+                    </div>
+                    <div class="body-form">
+                        <div class="form">
+                            <div class="inp-group">
+                                <img src="image/user.png">
+                                <input id="UsernameSignIn" type="text" class="inp" title="Podaj imię">
+                                <label for="UsernameSignIn">Username</label>
+                            </div>
+                            <div class="inp-group">
+                                <img src="image/pass.png">
+                                <input id="PassSignIn" type="text" class="inp" title="Podaj imię">
+                                <label for="PassSignIn">Your Email</label>
+                            </div>
+                            <div class="action-form">
+                                <div class="check-group">
+                                    <input id="SignIn" type="checkbox" class="inp">
+                                    <label for="SignIn">Remember Me</label>
+                                </div>
+                                <button type="submit" class="small">
+                                    Sign in
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-content">
+                    <div class="title-form">
+                        <h3>Recover Form</h3>
+                    </div>
+                    <div class="body-form">
+                        <div class="form">
+                            <div class="inp-group">
+                                <img src="image/mail.png">
+                                <input id="RecoverEmail" type="text" class="inp" title="Podaj imię">
+                                <label for="RecoverEmail">Email</label>
+                            </div>
+                            <div class="inp-group">
+                                <img src="image/phone.png">
+                                <input id="RecoverPhone" type="text" class="inp" title="Podaj imię">
+                                <label for="RecoverPhone">Your Email</label>
+                            </div>
+                            <div class="action-form">
+                                <button type="submit" class="small">
+                                    Send
+                                </button>
+                                <button type="submit" class="small" disabled>
+                                    Done
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-content">
+                    <div class="title-form">
+                        <h3>Subscribe Form</h3>
+                    </div>
+                    <div class="body-form">
+                        <div class="form">
+                            <div class="inp-group">
+                                <img src="image/mail.png">
+                                <input id="SubscribeEmail" type="text" class="inp" title="Podaj imię">
+                                <label for="SubscribeEmail">Enter your Email</label>
+                            </div>
+                            <div class="action-form">
+                                <button class="small" type="submit">
+                                    Subscribe
+                                </button>
+                                <button class="small danger" type="reset">
+                                    No, Thanks
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="logo-bottom">
+                    <img src="image/logo-bottom.png" alt=""/>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
+
+
